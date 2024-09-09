@@ -28,7 +28,8 @@ These instructions will help you set up the project on your local machine.
    cd Zazmic_Spark/logprocessor
    ```
 
-Ensure that Maven is installed, then build the project using:
+2. **Ensure that Maven is installed, then build the project using:
+  
   ```bash
    mvn clean install
    mvn exec:java -Dexec.mainClass="com.example.LogProcessor"
